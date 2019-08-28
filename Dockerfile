@@ -23,7 +23,7 @@ USER $USER
 RUN mkdir -p $GAME_DIR \
 
     ## Download Minecraft
-    && curl -o $GAME_DIR/minecraft-server.jar -s https://launcher.mojang.com/v1/objects/f1a0073671057f01aa843443fef34330281333ce/server.jar \
+    && curl -o $GAME_DIR/minecraft-server.jar -s https://launcher.mojang.com/v1/objects/3dc3d84a581f14691199cf6831b71ed1296a9fdf/server.jar \
 
     ## Agree to EULA
     && echo 'eula=true' > $GAME_DIR/eula.txt \
